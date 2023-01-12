@@ -13,18 +13,16 @@ function App() {
 
   return (
     <div >
-      {/* <header >
-        Hi
-      </header> */}
+      <GetSlides />
 
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path='/github-issue-clone' element = {(
             <GetSlides />
           )} />
         </Routes>
-      </Router>
-{/* <GetSlides /> */}
+      </Router> */}
+      
       
     </div>
   );
