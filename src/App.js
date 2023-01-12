@@ -17,14 +17,14 @@ function App() {
         Hi
       </header> */}
 
-      <Router>
+      {/* <Router>
         <Routes>
           <Route path='//github-issue-clone' element = {(
             <GetSlides />
           )} />
         </Routes>
-      </Router>
-
+      </Router> */}
+<GetSlides />
       
     </div>
   );
