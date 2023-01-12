@@ -49,8 +49,8 @@ export default function Scroll({data}) {
               <BsRecordCircle /> {data.length} Open 
             </div> 
 
-            <div className = 'col-12 col-lg-9 '>
-                <div className = 'row list_display' >
+            <div className = 'col-12 col-lg-9 top_bar_text'>
+                <div className = 'row ' >
                     <div className = 'col-2'>
                         Author
                     </div>

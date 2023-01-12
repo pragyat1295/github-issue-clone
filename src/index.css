@@ -41,10 +41,10 @@ code {
   vertical-align: text-bottom;
 }
 
-.list_display {
+/* .list_display {
   padding-top: 1%;
   margin-top: 1%;
-}
+} */
 
 .post_display {
   border-bottom: 1px solid gray;
