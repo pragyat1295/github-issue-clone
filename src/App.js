@@ -4,8 +4,6 @@ import GetSlides from './components/GetSlides';
 import { BrowserRouter as Router,
   Routes, 
   Route,
-  // redirect,
-  // useNavigate ,
   Link } from 'react-router-dom';
 
 
@@ -13,15 +11,9 @@ function App() {
 
   return (
     <div >
-      {/* <GetSlides /> */}
 
       <Router>
         <GetSlides />
-        {/* <Routes>
-          <Route path='/github-issue-clone' element = {(
-            <GetSlides />
-          )} />
-        </Routes> */}
       </Router>
       
       
