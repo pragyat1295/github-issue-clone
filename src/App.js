@@ -13,15 +13,16 @@ function App() {
 
   return (
     <div >
-      <GetSlides />
+      {/* <GetSlides /> */}
 
-      {/* <Router>
-        <Routes>
+      <Router>
+        <GetSlides />
+        {/* <Routes>
           <Route path='/github-issue-clone' element = {(
             <GetSlides />
           )} />
-        </Routes>
-      </Router> */}
+        </Routes> */}
+      </Router>
       
       
     </div>
