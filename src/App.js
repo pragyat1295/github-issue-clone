@@ -1,12 +1,14 @@
 
 import './App.css';
 import GetSlides from './components/GetSlides';
-import { BrowserRouter as Router,
-  Routes, 
+import {
+  BrowserRouter as Router,
+  Routes,
   Route,
   // redirect,
   // useNavigate ,
-  Link } from 'react-router-dom';
+  Link
+} from 'react-router-dom';
 
 
 function App() {
@@ -23,8 +25,8 @@ function App() {
           )} />
         </Routes> */}
       </Router>
-      
-      
+
+
     </div>
   );
 }
